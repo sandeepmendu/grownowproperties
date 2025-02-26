@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0073e6;
+    color: white;
+    padding: 15px;
+}
+
+.contact {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#chatbox {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+}
